@@ -19,4 +19,4 @@ jobs:
         fetch-depth: 0
     - uses: coursier/cache-action@v6.3
     - uses: VirtusLab/scala-cli-setup@v1.0.1
-    - run: cd scala-cli && scala-cli --power package --native  --native-version 0.4.13 . -o app
+    - run: cd scala-cli && scala-cli run . --native --native-version 0.4.13
